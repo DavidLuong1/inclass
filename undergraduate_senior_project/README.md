@@ -1,2 +1,1 @@
-# RACF Arts Access Enhancement Project<hr>
-### Description:<br/>
+# Undergraduate Senior Project (BS - Information Technology: Web & Mobile Computing)<hr>
