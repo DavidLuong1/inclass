@@ -1,1 +1,1 @@
-### A compilation of major academic projects during undergraduate study.
+### A compilation of major academic projects during undergraduate study.<br>
