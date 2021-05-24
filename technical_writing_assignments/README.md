@@ -1,1 +1,1 @@
-### A compilation of completed deliverables for the course, Technical Writing.<hr>
+### This is a compilation of completed written work for the courses, Technical Writing and Project Management.<hr>
