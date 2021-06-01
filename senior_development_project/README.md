@@ -5,7 +5,7 @@ Link to Project Deliverables: https://drive.google.com/drive/folders/1YP2yM3uBGx
 #### Design:
 InVision, LucidChart<br>  
 #### Development:
-WordPress, Elementor<br>
+WordPress, Elementor, Custom code (HTML/HTML5, CSS/CSS3, PHP)<br>
 #### Collaboration:
 Slack, Discord, Google Workspace, Zoom<br>
 #### Project management:
