@@ -1,3 +1,2 @@
-# Java Projects<hr><br>
-
+# Java Projects
 My undergraduate	coding assignments completed using Java
