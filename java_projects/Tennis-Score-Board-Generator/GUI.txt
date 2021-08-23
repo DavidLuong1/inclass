@@ -1,0 +1,42 @@
+a) Name:  David Luong
+
+b) Controls used:      
+      (1). JMenu - contains submenu 'Exit' for closing the program easily. (**Required)
+      
+      (2). JRadioButtons - contains selections for the championship-match year.
+           JButton - the 'reset' button takes the user back to the current year result.
+        
+      (3). Tool Tip (setToolTipText()) - displays info. about what each radio button does when hovered on.
+      
+      (4). JComboBox - changes the color/background color of the frame's header.
+   
+   
+c) (Optional): what the program would have been if it didn't go to the dark side?
+      
+      It'd look more realistic, and I would have attempted to set the scores for each year's championship 
+      match, more dynamically.      
+
+
+d) Short Description of how to navigate and use the program:
+      
+      My GUI is intended to be a score-data keeper for the U.S. Open Men's Singles Championship matches 
+      since 2010. 
+      
+      To view the match results of a particular year, the user would click on a desired year(indicated by 
+      JRadioButtons), then the current result on the scoreboard will change to the result during the selected
+      year. Of course, the user can reset the scoreboard to the current(this year's) result by pressing the 
+      'Reset to Default' button.
+      
+      The GUI also allows exiting from the 'File' menu, and displays its info. within the 'Help' section.
+      Last, the user is capable of changing the header color/background for better view (NOT RECOMMENDED,
+      because this program is meant to be "Evil").
+            
+
+e) What makes your program the most evil?
+       Having a button disappear, intentionally, and choosing a mix of colors: both dark colors
+       and color-blinded ones.
+
+f) How to easily exit the program?
+       Clicking the 'x' icon on the top corner of the JFrame, or by locating (File > Exit) then 
+       clicking 'Exit'. 
+   

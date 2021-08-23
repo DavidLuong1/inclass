@@ -1,1 +1,3 @@
-### This is a portfolio of projects and written deliverables I've completed as a full-time, undergraduate student.<hr>
+# Java Projects<hr><br>
+
+My undergraduate	coding assignments completed using Java
