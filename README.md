@@ -4,4 +4,5 @@ A list of David's key projects and in-class assignments during his undergraduate
 * Web & Mobile UX/UI Design and Development 
 * Technical Writing
   * Project Life Cycle (Project Management + Information Requirements & Data Modeling)
+
 * Client/Server Programming (Java)
