@@ -1,0 +1,76 @@
+/**
+* @author David Luong (ISTE-341)
+* @description Customized CSS styles shared by multiple elements
+*/
+
+body, hr{
+  background-color: #F6F5C9;
+}
+header, footer{
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+header + ul, .clearfix{
+  width: 100%;
+}
+h1, .frame img, .item, form, .button, footer{
+  text-align: center;
+}
+section, #shopCart, form{
+  max-width: 80%;
+}
+.about > p > em:last-child, .about-catalog > p > em:first-child, .about-sales > p > em{
+  font-weight: bold;
+}
+.about-sales > p > em:not(:last-child), .about-catalog > p > em:first-child {
+  background-color: #ff0;
+}
+.item-name, .button{
+  display: block;
+}
+.btn, .item:last-child, input[type=submit]{
+  cursor: pointer;
+}
+.badge, input[type=submit], .btn, .fa-plus, .button{
+  color: #fff;
+}
+input[type=submit], .btn{
+  border-radius: 5px;
+}
+input[type=text], input[type=password]{
+  width: 50%;
+}
+section, #shopCart{
+  background-color: #EDFCFF;
+  margin: 6.25em auto; /* 100px */
+  padding-top: 2px;
+}
+section, #shopCart, .frame{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+}
+ul, .pagination {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+a, .pagination a{
+  color: #000;
+}
+.pagination a, img.sample, .cart-icon{
+  float: left;
+}
+.pagination a, a, .button{
+  text-decoration: none;
+}
+.shopping-cart, .button{
+  border-radius: 3px;
+}
+.shopping-cart:after, .clearfix:after{
+  content: "";
+}
+.shopping-cart, .shopping-cart-total {
+  float: right;
+}
