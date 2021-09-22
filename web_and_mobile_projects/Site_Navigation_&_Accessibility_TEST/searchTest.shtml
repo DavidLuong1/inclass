@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <!--<link rel="stylesheet" href="./styles.styl">-->
+    <title>Search Test</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation Demo #1 -->
+      <ul class="header-nav-left">
+          <!-- <li id="menu" onclick="toggleMenu(window.matchMedia('(max-width: 1200px)')"> -->
+          <li id="menu" class="items" onclick="toggleMenu()">
+            <a href="#" class="menu-icon"><i class="fa fa-bars"></i></a>
+          </li>
+          <li class="items tabs inc-tab">Incident Management</li>
+          <li class="items tabs prb-tab">Problem Management</li>
+          <li class="items tabs apr-tab">Application Request<!--<i class="fa fa-caret-down"></i>--></li>
+          <li class="items tabs chg-tab">Change Management<!--<i class="fa fa-caret-down"></i>--></li>
+      </ul>
+      <ul class="header-nav-right">
+        <li id="search" class="items">
+          <input id="searchBar" type="text" name="search" placeholder="Search..." onfocus="this.placeholder=''" onblur="this.placeholder='Search...'" />
+        </li>
+        <li class="tabs right-tabs">About</li>
+        <li class="tabs right-tabs">Help</li>
+      </ul>
+
+      <!-- Navigation Demo #2: Equal-sized tabs -->
+      <div class="equal-width-bar">
+        <a href="#">Android</a><a href="#">iOS</a><a href="#">Amazon</a><a href="#">Windows OS</a><a href="#">Samsung OS</a>
+      </div>
+
+      <!-- Navigation Demo #3: Flex box -->
+      <nav class="flex-navigation">
+        <ul class="flex-container">
+          <li class="flexible-tabs">ABOUT</li>
+          <li class="flexible-tabs">SUPPORT</li>
+          <li class="flexible-tabs">RESOURCES</li>
+          <li class="flexible-tabs">TRAINING</li>
+          <li class="flexible-tabs">PARTNERS</li>
+          <li class="flexible-tabs search">
+            <input id="searchBar2" type="text" name="search" placeholder="Search..." onfocus="this.placeholder=''" onblur="this.placeholder='Search...'" />
+          </li>
+          <li class="flexible-tabs">CONTACT</li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <section id="searchContainer">
+      <h2 id="searchMenuHeader">Search Menu</h2>
+      <input type="text" id="itemSearch" placeholder="Enter an item..." onkeyup="loadMyItem()" onfocus="this.placeholder=''" onblur="this.placeholder='Enter an item...'" />
+      <ul id="searchBox">
+        <li class="searchMenuOptions"><a href="#">Attachments</a></li>
+        <li class="searchMenuOptions"><a href="#">Business User Info</a></li>
+        <li class="searchMenuOptions"><a href="#">Catalog</a></li>
+        <li class="searchMenuOptions"><a href="#">Functionality</a></li>
+        <li class="searchMenuOptions"><a href="#">Inventory</a></li>
+        <li class="searchMenuOptions"><a href="#">Service Level</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <!-- <button></button> -->
+      <div class="pagination">
+        <a href="#">&laquo;</a><a href="#" class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><a href="#">&raquo;</a>
+      </div>
+
+      &copy; 2019
+    </footer>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>

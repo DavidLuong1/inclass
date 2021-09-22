@@ -1,0 +1,3 @@
+# Site_Navigation_&_Accessibility_TEST
+Personal, front-end website template I created, with web accessibility (including ease of navigation and search features) and information architecture in mind;
+PURPOSE: to experiment with possible solutions that simplify the user's search for particular web content, and provide the user a consistent experience for both web and mobile versions, regardless of screen resolutions

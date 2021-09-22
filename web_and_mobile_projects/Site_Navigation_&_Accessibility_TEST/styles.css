@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #000;
+}
+
+body {
+  background-image: linear-gradient(to left, #2974BA, #328DEB, #8FAEEB);
+  background-attachment: fixed;
+}
+
+header, .equal-width-bar, footer {
+  left: 0;
+  right: 0;
+}
+
+header, footer {
+  position: fixed;
+}
+
+header {
+  top: 0;
+  background-color: #E3DCE0;
+}
+
+header li, .header-nav-left, .equal-width-bar a {
+  float: left;
+  font: 1em "Oswald", sans-serif;
+}
+
+#menu {
+  display: none;
+}
+
+#menu:hover, #searchMenuHeader {
+  background-color: #999;
+}
+
+header li, .searchMenuOptions {
+  background-color: #E3DCE0;
+  padding: 10px 16px;
+}
+
+.header-nav-right, #searchBar, #searchBar:focus {
+  /* background-position: 100% center; /*ease from right to left */
+  /* background-position: 0 center; /*ease from left to right* */
+  float: right;
+}
+
+header, .equal-width-bar, #searchBar:focus, #searchBar2:focus, #searchContainer, #itemSearch, .searchMenuOptions {
+  width: 100%;
+}
+
+input[type=text] {
+  border: solid #ccc;
+  background-color: #FCF5E5;
+  padding: 0px 15px 0px 30px;
+}
+
+#searchBar, #searchBar2 {
+  width: 120px;
+  border-radius: 10px;
+  /* transition-timing-function: linear; */
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz-transition: width 0.3s ease-in-out;
+  -ms-transition: width 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+.equal-width-bar {
+  background-color: #B8E3BB;
+  position: relative;
+  overflow: auto;
+}
+
+.equal-width-bar a {
+  width: 20%;
+  padding: 8px 0;
+}
+
+.equal-width-bar a:hover {
+  background-color: #D8E3AA;
+}
+
+header li, .equal-width-bar a:not(:last-child) {
+  border-right: 1px solid #333;
+}
+
+.equal-width-bar a, .searchMenuOptions:not(:first-child) {
+  border-top: 1px solid #333;
+}
+
+.equal-width-bar a {
+  border-bottom: 1px solid #333;
+}
+
+.equal-width-bar, .flex-container, #searchContainer, footer {
+  text-align: center;
+}
+
+.flex-container { /* Styles the <ul>, NOT <nav> */
+  display: flex;
+}
+
+/* APPLY THIS IF YOU ADD A SEARCH BAR (<li>) BEFORE THE LAST ITEM */
+li.search {
+  flex: 1;
+}
+
+.flex-container > li.flexible-tabs {
+  flex: 1;
+}
+
+#searchContainer {
+  /* position: relative; */
+  width: 60%;
+  margin: 15em auto;
+}
+
+footer {
+  bottom: 0;
+  background-color: #222;
+}
+
+footer, .pagination a{
+  color: #fff;
+}
+
+.pagination {
+  margin-bottom: 16px;
+}
+
+.pagination a.active{
+  background-color: #3C60FF;
+}
+
+.pagination a{
+  padding: 0 16px;
+  font-size: 1.5em;
+}
+
+/*  */
+@media all and (max-width: 1200px) {
+  .header-nav-left, .header-nav-right{
+    background-color: #999;
+    float: none;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  #search {
+    position: absolute;
+    right: 0;
+    border-bottom: 1px solid #333;
+  }
+
+  li.tabs {
+    width: 100%;
+    border-top: 1px solid #333;
+    border-right: none;
+  }
+
+  li.tabs, .hidden-tab {
+    display: none;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+
+  .flex-container > li.flexible-tabs {
+    /* flex-basis: 1 1 50%; */
+    flex-basis: 100%;
+    border-bottom: 1px solid #333;
+  }
+
+  .flex-container > li.flexible-tabs:not(:last-child) {
+    border-right: 1px solid #333;
+  }
+
+  li.search {
+    order: -1;  /*By default, order is 0. Switch to 1 to put search bar at the bottom; use -1 to put search bar at the top */
+  }
+
+  header, .searchMenuOptions, footer {
+    font-size: 12px;
+  }
+
+  /* .flex-container > li.flexible-tabs {
+    flex-basis: 1 1 100%;
+  }   */
+}
