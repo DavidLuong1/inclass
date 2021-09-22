@@ -5,4 +5,4 @@ A list of David's key projects and in-class assignments during his undergraduate
 * Technical Writing
   * Project Life Cycle (Project Management + Information Requirements & Data Modeling)
 
-* Client/Server Programming (Java)
+* Client/Server Programming (Java, PHP, MySQL/SQL)
