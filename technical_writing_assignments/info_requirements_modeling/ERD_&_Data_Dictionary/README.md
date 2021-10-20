@@ -1,7 +1,7 @@
 ### I. Create an Entity-Relationship Diagram and Data Dictionary
 Create an entity relationship diagram ERD based upon the <u>scenario</u> provided below. Normalize your model to third normal form and include all entity definitions in genus/differentia format, attributes need NOT be defined at this time. Further, you are not required to resolve (forward engineer) M:N relationships. Indicate the identifier (primary key) for entities strong entities and weak entities, where appropriate; indicate participation and cardinality in all relationships; include relationship names. It is not required that you include foreign key attributes, but you may if you wish to.
-<br/>
-<b>Background Information</b>
+<br/><br/>
+<b>Background Information</b><br/>
 The Instructional Support Department (ISD) at MYSU is responsible for maintaining instructional
 equipment that MYSU faculty and staff can reserve, have delivered and set up for them, picked up and
 returned for them. However, it is important to know that when the instructional equipment is in
@@ -11,8 +11,8 @@ instructional equipment is to get the proper equipment, set up at the right time
 
 Currently, there are redundant systems: a manual, paper-based system revolving around a job ticket
 and K-net, a web-based system that is not user friendly or reliable. Ideally, the employees of the ISD would like an online Instructional Delivery Support System (IDSS) that would allow them to do their jobs more efficiently by electronically storing relevant data more consistently. Below is a narrative describing their needs and usage of the proposed IDSS.
-<br/>
-<b>Scenario</b>
+<br/><br/>
+<b>Scenario</b><br/>
 There is some data that ISD would like to track on a MYSU person. A MYSU person is someone that is
 involved with MYSU, that for the ISD's interests must either be an ISD employee or a customer, but
 can't be both. For a MYSU person, the ISD would like to maintain data on the person's universityID (a
